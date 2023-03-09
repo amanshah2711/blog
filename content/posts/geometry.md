@@ -1,10 +1,11 @@
 ---
-title: "My First Post"
-date: 2020-03-09
+title: Geometry of Linear Transformations
+subtitle: This note is simply meant to give examples about important operations that can be done via linear transformations
 draft: true
 math: true
+date: 2022-04-06
+author: Aman Shah
 ---
-## Introduction
 
 ### Types of Transformations[^1] 
 <ol>
@@ -15,6 +16,7 @@ math: true
     <li>Important aside: Gaussian Elimination</li>
     <li>Rotations</li>
 </ol>
+
 For the following discussion let \\(\mathbf{I} \in \mathbf{R}^{n \times n}\\) denote the identity matrix.
 
 ### 1)Projections
@@ -24,7 +26,7 @@ For the following discussion let \\(\mathbf{I} \in \mathbf{R}^{n \times n}\\) de
   <figcaption> <b>Figure 1:</b> The matrix is projecting the square onto the \(x\)-axis</figcaption>
 </figure>
 
-The important thing to understand for this discussion is projections onto a 1D subspace(a line through the origin). This is discussed in sufficient depth [here](/pages/projections). This is the building block of other transformations so please do read it closely. The essential takeaway from this should be given \\(x,y \in \mathbf{R}^n\\) then we can say the projection of $x$ onto the span of \\(y\\) is some vector \\(\beta \in \mathbf{R}^n \\) of the form,
+The important thing to understand for this discussion is projections onto a 1D subspace(a line through the origin). This is discussed in sufficient depth [here](/pages/projections). This is the building block of other transformations so please do read it closely. The essential takeaway from this should be given \\(x,y \in \mathbf{R}^n\\) then we can say the projection of \\(x\\) onto the span of \\(y\\) is some vector \\(\beta \in \mathbf{R}^n \\) of the form,
 
 \\[
     \beta = P_y(x)\frac{y}{\lVert y \rVert} = \frac{yy^T}{\lVert y \rVert^2} x
@@ -168,5 +170,3 @@ an isometry. The matrix \\(\mathbf{A}\\) will have orthonormal columns if and on
 [^2]: This property is sometimes referred to as **idempotent**
 [^3]: In other contexts you will see this matrix referred to as an **elementary orthogonal reflection**, or **Householder reflection**.
 [^4]: In one dimension we can reflect over a dimension, in two dimensions we reflect over a plane, and in \\(n\\) dimensions we reflect over a surface of dimension \\(n-1\\) that is often referred to as a **hyperplane**. Critically a hyperplane is characterized by the vector normal to it. Essentially what is referred to as \\(z\\) is usually given.
-
-

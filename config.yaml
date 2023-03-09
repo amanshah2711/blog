@@ -2,3 +2,8 @@ baseURL: http://example.org/
 languageCode: en-us
 title: Parallelogram 
 theme: "PaperMod"
+math: true
+params:
+    homeInfoParams:
+        Content: I am turned off when I see only formulas and symbols, and little text. -Stanislaw Ulam
+    disableThemeToggle: true
