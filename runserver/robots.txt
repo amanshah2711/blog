@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://amanshah2711.github.io/paper-blog/sitemap.xml

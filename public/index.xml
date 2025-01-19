@@ -2,9 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Parallelogram</title>
-    <link>http://example.org/</link>
+    <link>https://blog.amanshah2711.me/</link>
     <description>Recent content on Parallelogram</description>
+    <image>
+      <title>Parallelogram</title>
+      <url>https://blog.amanshah2711.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.amanshah2711.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.amanshah2711.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projectors</title>
+      <link>https://blog.amanshah2711.me/posts/projections/</link>
+      <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.amanshah2711.me/posts/projections/</guid>
+      <description>Introduction The purpose of this note is to give a perspicuous presentation of a special class of operators called projectors. Projectors find themselves used in applications ranging from elementary physics, to statistics, machine learning, and geometry among countless others. Their prominence for both theoretical and applied aspects of linear algebra make them worth the time to learn well.
+Projectors With the preliminaries done we can now define special kind of map known as a projector.</description>
+    </item>
+    
+    
   </channel>
 </rss>

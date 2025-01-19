@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://blog.amanshah2711.me/</loc>
+    <lastmod>2023-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://blog.amanshah2711.me/posts/</loc>
+    <lastmod>2023-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://blog.amanshah2711.me/posts/projections/</loc>
+    <lastmod>2023-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.amanshah2711.me/categories/</loc>
+  </url><url>
+    <loc>https://blog.amanshah2711.me/search/</loc>
+  </url><url>
+    <loc>https://blog.amanshah2711.me/tags/</loc>
   </url>
 </urlset>
