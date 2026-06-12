@@ -2,7 +2,7 @@
 title: "How To Draw Pictures in Linear Algebra"
 date: 2023-11-08T21:28:03-05:00
 author: Aman Shah
-draft: false
+draft: true
 math: true
 ---
 

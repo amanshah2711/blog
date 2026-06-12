@@ -2,7 +2,7 @@
 title: "Gaussian Elimination"
 date: 2024-03-07T22:00:35-05:00
 author: Aman Shah
-draft: false
+draft: true
 math: true
 ---
 

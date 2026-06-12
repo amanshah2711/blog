@@ -2,7 +2,7 @@
 title: "Hyperplanes"
 date: 2023-03-09
 author: Aman Shah
-draft: false
+draft: true
 math: true
 showtoc: true
 showbreadcrumbs: true

@@ -2,7 +2,7 @@
 title: Linear Systems of Equations
 date: 2025-09-12T12:11:15-04:00
 author: Aman Shah
-draft: false
+draft: true
 math: true
 ---
 ## Prerequisites 

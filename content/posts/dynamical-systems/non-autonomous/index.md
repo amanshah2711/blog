@@ -2,7 +2,7 @@
 title: Properties of Non-Autonomous Dynamical Systems 
 date: 2025-04-24T19:35:48-04:00
 author: Aman Shah
-draft: false
+draft: true
 math: true
 ---
 {{TOC}}
