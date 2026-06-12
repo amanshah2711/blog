@@ -1,6 +1,6 @@
-/public/
-/resources/_gen/
-/assets/jsconfig.json
+public/
+resources/_gen/
+assets/jsconfig.json
 hugo_stats.json
 
 hugo.exe
@@ -12,4 +12,4 @@ node_modules
 dist
 tmp
 
-/.hugo_build.lock
+.hugo_build.lock

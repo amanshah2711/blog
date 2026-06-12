@@ -1,14 +1,11 @@
 baseURL: "https://blog.amanshah2711.me"
 title: Parallelogram
-paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -53,8 +50,6 @@ params:
 
   label:
     text: "Parallelogram"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
   
   # profile-mode
   profileMode:
@@ -73,18 +68,11 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: stackoverflow
+    - name: "stackoverflow"
       url: "https://math.stackexchange.com/users/1078428/aman-shah"
-    - name: github
+    - name: "github"
       url: "https://github.com/amanshah2711"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: false # hide everywhere but not in structured data
@@ -127,9 +115,7 @@ markup:
     guessSyntax: true
     lineNos: true
     style: monokai
-
-markup:
-  tableOfContents:
+  - tableOfContents:
     endLevel: 5
     ordered: false
     startLevel: 2
