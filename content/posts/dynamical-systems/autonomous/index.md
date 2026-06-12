@@ -2,10 +2,10 @@
 title: Properties of Autonomous Dynamical Systems 
 date: 2025-04-24T19:35:48-04:00
 author: Aman Shah
-draft: false
+draft: true
 math: true
 ---
-{{TOC}}
+
 # Introduction
 
 This note is intended to exposit key ideas of autonomous dynamical systems. Many definitions and terms used for dynamical systems have equivalent definitions for special cases such linear-time invariant, or linear time-varying   systems. The purpose here is to provide a general background, so that the specific notions can be shown to follow from the general definitions and principles. The hope is that this overview will lead to a deeper understanding of what some notions such as stability mean, as well as make it easy for the reader to purvey different sources more easily. The equivalence of definitions and slight terminology differences can make cross referencing or understanding sources quite difficult at just a glance.
