@@ -2,7 +2,7 @@
 title: Applied Numerical Linear Algebra by James W. Demmel
 date: 2026-07-02T11:31:00-04:00
 author: Aman Shah
-draft: true
+draft: false
 math: true
 ---
 

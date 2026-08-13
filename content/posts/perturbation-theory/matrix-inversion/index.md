@@ -2,12 +2,14 @@
 title: Matrix Inversion Perturbation Theory
 date: 2026-07-04T11:17:21-04:00
 author: Aman Shah
-draft: true
+draft: false
 math: true
 ---
 
 ## Introduction
 This is the most classical origin of an important concept known as the condition number of a matrix. Our goal is to give a detailed view of different methods, because while this is a well-known topic there are several techniques and few standard presentations of total rigor.
+
+[IN PROGRESS NOTE]
 
 ## Absolute Condition
 

@@ -2,7 +2,7 @@
 title: Matrix Computations by Golub and Van Loan 4th Edition Errata
 date: 2026-06-22T22:18:30-04:00
 author: Aman Shah
-draft: true
+draft: false
 math: true
 ---
 
