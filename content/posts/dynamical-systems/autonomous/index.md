@@ -30,7 +30,7 @@ This note is intended to exposit key ideas of autonomous dynamical systems. Many
 
 - **Continuous** := the states and their transitions are described with respect to a connected subset of real numbers(ex. $t\geq 0$, $t \in \mathbb{R}$, $t \in [a, b]$ )
 - **Deterministic** := the transition dynamics and consequently the states have no dependence on random behavior. In some cases it is useful to consider random noise as affecting the transition from one state to the next.
-- **Autonomous** := this means the function $f$ has no dependence on $t$. This means the next state depends only on the current state, and not the current time.
+- **Autonomous** := this means the function $f$ has no explicit dependence on $t$. This means the next state depends only on the current state, and not the current time.
 - **Dynamical System** := we are describing the system by how the states evolve over time
 
 

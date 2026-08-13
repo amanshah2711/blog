@@ -6,9 +6,11 @@ draft: true
 math: true
 ---
 
+
+
 ## Introduction
 
-Any student of mathematics, physics, computer science, or any quantitative discipline inevitably comes across the word **vector**. As a byproduct of cross-discipline use, “vector” often has slightly varying definitions that obfuscate the details. Even those who understand the rigorous details may find its connection to geometric intuition hazy. In the proceeding post we exposit .
+Any student of mathematics, physics, computer science, or any quantitative discipline inevitably comes across the word **vector**. As a byproduct of cross-discipline use, “vector” often has slightly varying definitions that obfuscate the details. Even those who understand the rigorous details may find its connection to geometric intuition hazy. In the proceeding post we exposit.
 
 ## The Definition
 
@@ -25,7 +27,12 @@ This definition then defines a vector as an element of $V$.
 Now we have a definition of what a vector is, and it is purely algebraic. In the subsequent sections we discuss how one takes this algebraic notion and connects it to geometry.
 
 
+## The Axioms of Geometry, Artin’s Geometric Algebra
+
+
 ## Defining Lines
+
+
 
 ## The Algebra of Coordinates
 

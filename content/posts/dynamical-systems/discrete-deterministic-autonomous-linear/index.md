@@ -13,12 +13,12 @@ This is a note meant to exposit a ubiquitous system in a perspicuous fashion. Fo
 # Discrete Deterministic Autonomous Linear Dynamical System
 
 \\[
-\begin{align*}
-	\mathbf{x}_{t+1} &= \mathbf{A}\mathbf{x}_{t}\\
-\end{align*}
+\begin{aligned}
+	\mathbf{x}_{t+1} = \mathbf{A} \mathbf{x}_{t}
+\end{aligned}
 \\]
 
-- **Discrete** := the states and their transitions are described with respect to non-negative integer indices(i.e the states are $\mathbf{x}_0, \mathbf{x}_1, \mathbf{x}_2, \ldots$)  \
+- **Discrete** := the states and their transitions are described with respect to non-negative integer indices(i.e the states are $\mathbf{x}_0, \mathbf{x}_1, \mathbf{x}_2, \ldots$)
 - **Deterministic** := the transition dynamics and consequently the states have no dependence on random behavior. In some cases it is useful to consider random noise as affecting the transition from one state to the next.
 - **Autonomous** := this means the transition dynamics $f(\mathbf{x}):= \mathbf{A}\mathbf{x}$ have no dependence on $t$ which means the next state depends only the current state, and not the current time.
 - **Linear** := the transition dynamics are governed by a linear map taking the states as input
@@ -73,6 +73,7 @@ Note: This section is likely worth skipping until you see the need for it in sub
 
 A useful tool in linear algebra is every matrix is similar to a block diagonal matrix with Jordan blocks. This means that $A = P\mathsf{A}P^{-1}$ where $\mathsf{A}$ is block diagonal with Jordan blocks. We can use this structure to understand future states and observations as follows,\
 \
+
 \\[
 \begin{align*}
 	x_{t} &= A^{t-t_{0}}x_{0} \\
@@ -83,15 +84,15 @@ A useful tool in linear algebra is every matrix is similar to a block diagonal m
 
 We will use $\mathsf{x}$ and $\mathsf{A}$, to denote the coordinate representations of $\mathbf{x}$ and $\mathbf{A}$ with respect to the Jordan basis. By our previous section,\
 \
-\\[
+$$
 \begin{align*}
 	\mathsf{x}_{t} &= \mathsf{A}^{t-t_{0}} \mathsf{x}_{0} \\
 	\mathsf{y}_{t} &= \mathsf{C} \mathsf{A}^{t-t_{0}} \mathsf{x}_{0}
 \end{align*}
-\\]
+$$
 
 
-Every Jordan block $\mathsf{A}_i$ is of the form $\lambda_i I + N$ which leads to the following expansion when $k:=t-t_{0}$ is larger than the dimension of the state space $n$. We consider this case because we are interested in long term behavior in subsequent sections so considering $k$ large enough is the time of interest.
+Every Jordan block $\mathsf{A}_{i}$ is of the form $\lambda_i I + N$ which leads to the following expansion when $k:=t-t_{0}$ is larger than the dimension of the state space $n$. We consider this case because we are interested in long term behavior in subsequent sections so considering $k$ large enough is the time of interest.
 
 \\[
 \begin{align*}
@@ -505,15 +506,8 @@ This is sometimes characterized in terms of the observability matrix. It is simp
 ### Gramians
 
 
-
-
 # Comments on Mathematical Setting
 Here the transition dynamics require a vector space, often we find Banach spaces the natural choice for control theory over a sufficiently nice field like C or R. Distinctions are made for those who care, and for those who don’t it is neither here nor there
 
 [^1]: Equilibrium points are a concept widely used, and have many synonyms : stationary point, steady state, fixed-point, critical point
 [^2]: An equation of this form is called a Stein Equation, or Discrete Lyapunov Equation.
-
----
-Annotations: 0,44887 SHA-256 aa1fae26751384e3448d  
-@Aman Shah: 137,4 1929 2585,460 11276,10 12852,779 14030,39 17805,12 17846 17874,4 17928,2 17931,4 18050,267 18748,12 19463,70 19872,145 20031,4 20052,4 20090,14 20132,4 20144,4 20170,4 20179,8 20200,5 20222,37 20272,93 20378,655 21046,711 21819,57 21877,2150 24050,4 24088,4 24132,4 24142,37 24188,594 24787,26 24824,4687 29525,4 29546,4 29584,14 29626,4 29638,4 29664,4 29673,8 29694,5 29716,37 29766,93 29872,1018 30903,3783 34700,4 34721,4 34759,14 34801,4 34813,4 34839,4 34848,8 34869,5 34891,37 34941,93 35047,2156 37206,14 37421,2 37426,33 37460,67 37614,4 37639,6111 43752 43754,26 43794,24 43934,430  
-...
