@@ -55,13 +55,14 @@ From this it follows we can bound the numerator using the triangle inequality as
 \end{aligned}
 \\]
 
-From this it follows that,\
+From this it follows that,
 
 \\[
-\begin{aligned}
+\begin{equation*}
 
 \frac{\|(A+\Delta A)^{-1} - A^{-1}\|}{\|A^{-1}\|} \leq \|A^{-1}\|\|\Delta A\| + \|A^{-1}\|^{2}\|\Delta A\|^{2} + \ldots
-\end{aligned}
+\end{equation*}
+
 \\]
 
 From this we find that the relative error, is upper bounded by,\
