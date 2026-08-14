@@ -59,10 +59,8 @@ From this it follows that,
 
 \\[
 \begin{equation*}
-
 \frac{\|(A+\Delta A)^{-1} - A^{-1}\|}{\|A^{-1}\|} \leq \|A^{-1}\|\|\Delta A\| + \|A^{-1}\|^{2}\|\Delta A\|^{2} + \ldots
 \end{equation*}
-
 \\]
 
 From this we find that the relative error, is upper bounded by,\
